@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li>Samsung
+				<ul>
+					<li>Samsung S10
+						<ul>
+							<li>8gb/128gb</li>
+							<li>12gb/256gb
+								
+							</li>
+						</ul>
+					</li>
+					<li>Samsung A23</li>
+					<li>Samsung S22</li>
+					<li>Samsung Note10+</li>
+				</ul>
+			</li>
+			<li>Google Pixel</li>
+			<li>Realme
+				<ul>
+					<li>Mobile</li>
+					<li>Laptop</li>
+				</ul>
+			</li>
+			<li>Xiaomi</li>
+			<li>Apple
+				<ul>
+					<li>Mobile</li>
+					<li>Airpods</li>
+					<li>Iwatch</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
